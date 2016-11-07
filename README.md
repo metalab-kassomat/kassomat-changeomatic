@@ -1,5 +1,14 @@
-# changeomatic
-Metalab change machine, a proof of concept using the Payout JSON API
+# change-o-matic
+Metalab coin-change machine (using the Payout JSON API)
+
+- [Source](https://github.com/metalab-kassomat/kassomat-changeomatic)
+- Written in Java, can be built (and run) with [Maven](https://maven.apache.org/)
+  - build: <code>mvn install</code>
+  - run: <code>mvn exec:java -Dexec.mainClass="at.metalab.changeomatic.ChangeomaticMain"</code>
+- UI: Graphical Swing Frontend
+- libs
+  - [Redisson](http://redisson.org/) (Redis client)
+  - [Jackson](https://github.com/FasterXML/jackson) (JSON library)
 
 ![screenshot](https://github.com/sixtyeight/changeomatic/blob/master/changeomatic.png)
 
