@@ -10,7 +10,7 @@ Metalab coin-change machine (using the Payout JSON API)
   - [Redisson](http://redisson.org/) (Redis client)
   - [Jackson](https://github.com/FasterXML/jackson) (JSON library)
 
-![screenshot](https://github.com/sixtyeight/changeomatic/blob/master/changeomatic.png)
+![screenshot](https://github.com/metalab-kassomat/kassomat-changeomatic/blob/master/changeomatic.png)
 
 #### Example trace, showing the exchange of a 10 Euro note 
 ```
