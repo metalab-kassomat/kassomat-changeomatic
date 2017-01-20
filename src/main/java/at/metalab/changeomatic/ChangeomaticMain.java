@@ -303,8 +303,8 @@ public class ChangeomaticMain {
 		submitTestPayout(changeomaticFrame, 2000, 3, hopperRequest,
 				hopperResponse, validatorRequest, changeomaticEvent);
 
-		submitTestPayout(changeomaticFrame, 5000, 4, hopperRequest,
-				hopperResponse, validatorRequest, changeomaticEvent);
+//		submitTestPayout(changeomaticFrame, 5000, 4, hopperRequest,
+//				hopperResponse, validatorRequest, changeomaticEvent);
 
 		/*
 		 * submitTestPayout(changeomaticFrame, inhibits, 10000, 5,
