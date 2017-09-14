@@ -14,7 +14,6 @@ import java.util.logging.Logger;
 
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JTabbedPane;
 import javax.swing.SwingConstants;
 
 public class ChangeomaticFrame extends javax.swing.JFrame {
@@ -124,7 +123,7 @@ public class ChangeomaticFrame extends javax.swing.JFrame {
 			notes.add(euro5);
 			notes.add(euro10);
 			notes.add(euro20);
-			notes.add(euro50);
+			// notes.add(euro50);
 			// notes.add(euro100);
 			// notes.add(euro200);
 
@@ -187,7 +186,7 @@ public class ChangeomaticFrame extends javax.swing.JFrame {
 	private void updateHint(String strHint) {
 		LOG.info("updateHint: " + strHint);
 		
-		hint.setText("-" + strHint + "-");
+		hint.setText("- " + strHint + " -");
 		hint.repaint();
 	}
 
@@ -211,7 +210,12 @@ public class ChangeomaticFrame extends javax.swing.JFrame {
 	}
 
 	public void hintDispensing() {
+		notes.setVisible(false);
 		updateHint("DISPENSING");
+	}
+	
+	public void hintNoCoins() {
+		updateHint("NO COINS");
 	}
 
 	public void updateInhibit(int channel, boolean inhibited) {
